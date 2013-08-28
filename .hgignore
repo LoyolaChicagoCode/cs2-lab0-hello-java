@@ -25,6 +25,7 @@ local.properties
 
 # IDEA files
 .idea/
+*.iml
 
 # Eclipse files
 .project
