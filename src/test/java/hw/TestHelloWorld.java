@@ -35,7 +35,7 @@ public class TestHelloWorld {
 	@Test
 	public void getYear() {
 		assertNotNull(fixture);
-		assertEquals(2008, fixture.getYear());
+		assertEquals(2009, fixture.getYear());
 	}
 
 }
