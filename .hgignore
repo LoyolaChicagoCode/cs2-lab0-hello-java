@@ -30,3 +30,6 @@ local.properties
 .project
 .classpath
 .settings/
+
+# Gradle cache
+.gradle/
