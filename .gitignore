@@ -35,3 +35,6 @@ local.properties
 gradle/
 gradlew
 gradlew.bat
+
+# Mac files
+*.DS_Store
