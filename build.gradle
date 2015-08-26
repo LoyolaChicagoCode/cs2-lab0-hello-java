@@ -3,7 +3,7 @@ apply plugin: 'application'
 mainClassName = "hw.Main"
 
 repositories {
-    mavenCentral()
+    jcenter()
 }
 
 dependencies {
