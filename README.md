@@ -9,6 +9,10 @@ This build will always fail because it is an example of a failing test.
 * Automated unit testing with JUnit
 * Continuous integration with Travis
 
+# System requirements
+
+* Java 6 SDK or later
+
 # Running the Application
 
 On Linux or Mac OS X:
