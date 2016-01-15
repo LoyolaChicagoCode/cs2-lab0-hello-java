@@ -28,7 +28,7 @@ public class TestHelloWorld {
 
 	@Test
 	public void getMessage2() {
-		assertNotNull(fixture);
+		assertNull(fixture);
 		assertEquals("hello world", fixture.getMessage());
 	}
 
