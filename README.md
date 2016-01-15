@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/LoyolaChicagoCode/hello-java.svg?branch=master)](https://travis-ci.org/LoyolaChicagoCode/hello-java)
 
-This build will always fail because it is an example of a failing test.
+This build will always fail because it has 2 examples of failing tests:
+one based on the source code, and one based on an incorrect test.
 
 # Learning Objectives
 
