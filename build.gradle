@@ -1,6 +1,12 @@
-apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = "hw.Main"
+libsDirName = 'lib' // simple workaround for error in startScripts task
+mainClassName = 'hw.Main'
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}    
 
 repositories {
     jcenter()

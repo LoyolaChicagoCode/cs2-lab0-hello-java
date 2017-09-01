@@ -22,7 +22,7 @@ On Linux or Mac OS X:
 	
 On Windows:
 	
-	> gradlew run
+    > gradlew run
 
 # Running the Tests
 
@@ -32,4 +32,25 @@ On Linux or Mac OS X:
 	
 On Windows:
 	
-	> gradlew test
+    > gradlew test
+
+# Running the Application Outside Gradle
+
+Unlike running the application using Gradle's `run` task,
+this allows passing command-line arguments.
+
+On Linux or Mac OS X:
+
+    $ ./build/scripts/hello-java arg1 arg2 arg3
+
+or
+
+    $ java -jar build/lib/hello-java.jar arg1 arg2 arg3
+
+On Windows:
+
+    > .\build\scripts\hello-java arg1 arg2 arg3
+
+or
+
+    > java -jar build\lib\hello-java.jar arg1 arg2 arg3
