@@ -8,34 +8,33 @@ import org.junit.Test;
 
 public class TestHelloWorld {
 
-	private HelloWorld fixture;
-	
-	@Before
-	public void setUp() throws Exception {
-		fixture = new HelloWorld();
-	}
+  private HelloWorld fixture;
 
-	@After
-	public void tearDown() throws Exception {
-		fixture = null;
-	}
+  @Before
+  public void setUp() throws Exception {
+    fixture = new HelloWorld();
+  }
 
-	@Test
-	public void getMessage() {
-		assertNotNull(fixture);
-		assertEquals("hello world", fixture.getMessage());
-	}
+  @After
+  public void tearDown() throws Exception {
+    fixture = null;
+  }
 
-	@Test
-	public void getMessage2() {
-		assertNull(fixture);
-		assertEquals("hello world", fixture.getMessage());
-	}
+  @Test
+  public void getMessage() {
+    assertNotNull(fixture);
+    assertEquals("hello world", fixture.getMessage());
+  }
 
-	@Test
-	public void getYear() {
-		assertNotNull(fixture);
-		assertEquals(2009, fixture.getYear());
-	}
+  @Test
+  public void getMessage2() {
+    assertNull(fixture);
+    assertEquals("hello world", fixture.getMessage());
+  }
 
+  @Test
+  public void getYear() {
+    assertNotNull(fixture);
+    assertEquals(2009, fixture.getYear());
+  }
 }
