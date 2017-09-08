@@ -13,7 +13,7 @@ apply plugin: 'com.github.ben-manes.versions'
 apply plugin: 'com.github.sherter.google-java-format'
 
 libsDirName = 'lib' // simple workaround for error in startScripts task
-mainClassName = 'hw.Main'
+mainClassName = 'hw.Main' // TODO change this setting to match your main class
 
 jar {
     manifest {
