@@ -1,4 +1,4 @@
-package hw;
+ package hw;
 
 import static org.junit.Assert.*;
 
@@ -27,14 +27,14 @@ public class TestHelloWorld {
   }
 
   @Test
-  public void getMessage2() {
+  public void getMessage2() { // this test is broken - fix it!
     assertNull(fixture);
     assertEquals("hello world", fixture.getMessage());
   }
 
   @Test
-  public void getYear() {
+  public void getYear() { // this test is OK, fix HelloWorld.java to make it pass!
     assertNotNull(fixture);
-    assertEquals(2009, fixture.getYear());
+    assertEquals(2018, fixture.getYear());
   }
 }
