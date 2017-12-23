@@ -42,16 +42,20 @@ this allows passing command-line arguments.
 
 On Linux or Mac OS X:
 
+    $ ./gradlew startScripts
     $ ./build/scripts/hello-java arg1 arg2 arg3
 
 or
 
+    $ ./gradlew jar
     $ java -jar build/lib/hello-java.jar arg1 arg2 arg3
 
 On Windows:
 
+    > gradlew startScripts
     > .\build\scripts\hello-java arg1 arg2 arg3
 
 or
 
+    > gradlew jar
     > java -jar build\lib\hello-java.jar arg1 arg2 arg3
