@@ -35,6 +35,21 @@
           <mainClass>hw.Main</mainClass>
         </configuration>
       </plugin>
+      <plugin>
+          <groupId>com.coveo</groupId>
+          <artifactId>fmt-maven-plugin</artifactId>
+          <version>2.5.1</version>
+          <configuration>
+              <displayFiles>false</displayFiles>
+          </configuration>
+          <executions>
+              <execution>
+                  <goals>
+                      <goal>check</goal>
+                  </goals>
+              </execution>
+          </executions>
+      </plugin>
     </plugins>
   </build>
     
