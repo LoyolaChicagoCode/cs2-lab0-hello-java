@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/LoyolaChicagoCode/hello-java.svg?branch=master)](https://travis-ci.org/LoyolaChicagoCode/hello-java)
+[![Build Status](https://travis-ci.org/LoyolaChicagoCode/cs2-lab0-hello-java.svg?branch=master)](https://travis-ci.org/LoyolaChicagoCode/cs2-lab0-hello-java)
 
 This build will always fail because it has 2 examples of failing tests:
 one based on the source code, and one based on an incorrect test.
