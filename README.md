@@ -2,6 +2,14 @@
 
 This build will always fail because it has 2 examples of failing tests:
 one based on the source code, and one based on an incorrect test.
+The status badge is here just to demonstrate continuous integration (CI).
+
+# Loyola COMP 271 Lab 0
+
+# Individual project
+
+Collaborate with your classmates on a conceptual level but do not share code.
+Submit individually.
 
 # Learning Objectives
 
