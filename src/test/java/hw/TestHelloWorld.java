@@ -32,11 +32,11 @@ public class TestHelloWorld {
     assertNotNull(fixture);
     assertEquals(2018, fixture.getYear());
   }
-  
+
   @Test
   public void getMessage2() { // this test itself is broken - fix it!
     // it produces an error before being able to test the assertion -> RED
-    final HelloWorld[] fixtures = new HelloWorld[] { fixture };
+    final HelloWorld[] fixtures = new HelloWorld[] {fixture};
     final String actual = fixtures[1].getMessage();
     assertEquals("hello world", actual);
   }
