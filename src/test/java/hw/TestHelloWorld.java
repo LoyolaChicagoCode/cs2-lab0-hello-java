@@ -28,8 +28,8 @@ public class TestHelloWorld {
 
   @Test
   public void getMessage2() { // this test is broken - fix it!
-    assertNull(fixture);
-    assertEquals("hello world", fixture.getMessage());
+    final HelloWorld[] fixtures = new HelloWorld[] { fixture };
+    assertEquals("hello world", fixtures[0].getMessage());
   }
 
   @Test
