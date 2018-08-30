@@ -21,20 +21,23 @@ public class TestHelloWorld {
   }
 
   @Test
-  public void getMessage() {
+  public void getMessage() { // this test works out of the box -> GREEN
     assertNotNull(fixture);
     assertEquals("hello world", fixture.getMessage());
   }
 
   @Test
-  public void getMessage2() { // this test is broken - fix it!
-    final HelloWorld[] fixtures = new HelloWorld[] { fixture };
-    assertEquals("hello world", fixtures[0].getMessage());
-  }
-
-  @Test
-  public void getYear() { // this test is OK, fix HelloWorld.java to make it pass!
+  public void getYear() { // this test is OK but fails -> ORANGE
+    // fix HelloWorld.java to make it pass!
     assertNotNull(fixture);
     assertEquals(2018, fixture.getYear());
+  }
+  
+  @Test
+  public void getMessage2() { // this test itself is broken - fix it!
+    // it produces an error before being able to test the assertion -> RED
+    final HelloWorld[] fixtures = new HelloWorld[] { fixture };
+    final String actual = fixtures[1].getMessage();
+    assertEquals("hello world", actual);
   }
 }
