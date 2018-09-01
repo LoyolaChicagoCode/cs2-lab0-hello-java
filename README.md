@@ -30,13 +30,14 @@ Submit individually.
 1. Request the [GitHub Student Developer Pack](https://education.github.com/pack/join) using your official Loyola email address (this should give you unlimited private repositories for free).
 
 1. Copy this existing [cs2-lab0-hello-java](https://github.com/LoyolaChicagoCode/cs2-lab0-hello-java) example in these steps:
-
   - Copy the repo URL https://github.com/LoyolaChicagoCode/cs2-lab0-hello-java.
   - On the GitHub page, click the big plus sign in the top right corner.
   - Select import repository.
   - Paste the URL as the old repository's URL.
   - Enter `cs2-lab0-hello-java` as the name of your new repository.
-  - Be sure to mark the new repository as private. If this does not work, ensure that you have properly requested the Student Developer Pack. Making your repository private is not critical for this project but will be required beyond this project for the rest of the course.
+  - Be sure to mark the new repository as private. 
+    If this does not work, ensure that you have properly requested the Student Developer Pack. 
+    Making your repository private is not critical for this project but will be required beyond this project for the rest of the course.
   
 1. Before you continue working on this project, give the TA and the instructor access to your repo by following these steps:
 
@@ -78,7 +79,7 @@ Submit individually.
 
 1. For highly convenient integration of git username and email and SSH keys between IDE profile and console, enable the git agent (this will restart your workspace):
 
-workspaces > settings for desired workspace (gear) > agents > git credentials
+        Workspaces > settings for desired workspace (gear wheel) > Agents > Git credentials
 
 # TDD with Codenvy, Maven, and JUnit
 
