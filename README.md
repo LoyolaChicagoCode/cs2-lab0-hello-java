@@ -160,9 +160,8 @@ To commit and push through the IDE,
 
    - right-click on the project node `cs2-lab0-hello-java` 
    - then choose
-
+   
          Git > Commit
-	  
    - enter a very brief description of the changes you are committing
    - check the box in the bottom left corner labeled *push committed changes*
     
