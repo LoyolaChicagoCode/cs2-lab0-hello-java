@@ -143,11 +143,11 @@ In this section, you will perform one or more iterations of the (more frequent) 
     - fixing the system under test (SUT), i.e., any incorrect method(s) in the `HelloWorld` class
     - fixing any erroneous tests
     
-1. Congratulations, you have now fixed your code!
+1. *Congratulations, you have now fixed your code!*
 
 # Committing and pushing your code to your remote GitHub repo
 
-In this section, you will close the outer, somewhat less frequent, circle, consisting of
+In this section, you will close the (somewhat less frequent) outer circle, consisting of
 
    - clone a remote repo (or *pull* someone else's recent changes)
    - change (edit-compile-test/run locally)
@@ -173,7 +173,8 @@ Alternatively, to commit from the command line,
     git push
     
 Finally, visit the web page of your remote GitHub repository and navigate to one of the source files you have changed to verify that the change is there.
-   Congratulations, you have now pushed your changes to your remote GitHub repository!
+
+*Congratulations, you have now pushed your changes to your remote GitHub repository!*
 
 # Submission
 
