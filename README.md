@@ -30,20 +30,21 @@ Submit individually.
 1. Request the [GitHub Student Developer Pack](https://education.github.com/pack/join) using your official Loyola email address (this should give you unlimited private repositories for free).
 
 1. Copy this existing [cs2-lab0-hello-java](https://github.com/LoyolaChicagoCode/cs2-lab0-hello-java) example in these steps:
-  - Copy the repo URL https://github.com/LoyolaChicagoCode/cs2-lab0-hello-java.
-  - On the GitHub page, click the big plus sign in the top right corner.
-  - Select import repository.
-  - Paste the URL as the old repository's URL.
-  - Enter `cs2-lab0-hello-java` as the name of your new repository.
-  - Be sure to mark the new repository as private. 
+
+   - Copy the repo URL https://github.com/LoyolaChicagoCode/cs2-lab0-hello-java.
+   - On the GitHub page, click the big plus sign in the top right corner.
+   - Select import repository.
+   - Paste the URL as the old repository's URL.
+   - Enter `cs2-lab0-hello-java` as the name of your new repository.
+   - Be sure to mark the new repository as private. 
     If this does not work, ensure that you have properly requested the Student Developer Pack. 
     Making your repository private is not critical for this project but will be required beyond this project for the rest of the course.
   
 1. Before you continue working on this project, give the TA and the instructor access to your repo by following these steps:
 
-  - Press settings (the little gear symbol) on the right of the top menu bar.
-  - Under collaborators and teams add us as collaborators with read/write privileges.
-  - Notification will occur automatically.
+   - Press settings (the little gear symbol) on the right of the top menu bar.
+   - Under collaborators and teams add us as collaborators with read/write privileges.
+   - Notification will occur automatically.
 
 1. Use the green *clone or download* button to copy the SSH-based repository URL for cloning your private remote GitHub repo into Codenvy.
 
@@ -51,14 +52,14 @@ Submit individually.
 
 1. Use your GitHub, Visual Studio Team Services, or Google+ account to log into Codenvy.
 
-  - If you do not have any of these accounts, create a GitHub account. Please see below for more information on GitHub.
+   - If you do not have any of these accounts, create a GitHub account. Please see below for more information on GitHub.
 
 1. Create a new workspace with the following settings:
 
-  - New from blank …
-  - Create new workspace from stack > BLANK
-  - Name: luccs271course
-  - RAM: 3GB
+   - New from blank …
+   - Create new workspace from stack > BLANK
+   - Name: luccs271course
+   - RAM: 3GB
 
 1. Wait for the workspace to become available. Now you have a persistent, cloud-based, standard Ubuntu/Linux command-line environment that you can work in and come back to from any computer.
 
