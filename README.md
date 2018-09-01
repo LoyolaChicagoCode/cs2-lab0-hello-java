@@ -157,7 +157,7 @@ To commit and push through the IDE,
     
    - then choose
 
-          Git > Commit
+         Git > Commit
 	  
    - enter a very brief description of the changes you are committing
     
