@@ -177,6 +177,8 @@ Finally, visit the web page of your remote GitHub repository and navigate to one
 
 *Congratulations, you have now pushed your changes to your remote GitHub repository!*
 
+## GitHub troubleshooting
+
 *NOTE: If you are having trouble pushing from through the IDE menu, try through the command line. 
 Then look carefully at the error message.
 If it talks about email privacy, then try each of the following steps in order:*
