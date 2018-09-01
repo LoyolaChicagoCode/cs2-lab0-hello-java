@@ -83,7 +83,7 @@ This is a one-time preparation step for this class.
 1. For highly convenient integration of git username and email and SSH keys between IDE profile and console, enable the git a
 gent:
 
-       Workspaces > settings for desired workspace (gear wheel) > Agents > Git credentials > click switch to enable
+       Workspaces > settings for desired workspace (gear wheel) > Agents > Git credentials > click to enable
        
    *(The switch should now turn from gray to blue and your workspace should restart.)*
 
