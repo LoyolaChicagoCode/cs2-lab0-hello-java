@@ -68,15 +68,15 @@ Submit individually.
         Profile > Preferences > Git > Committer
 	
    and enter any missing information. Use an email address that is associated with your GitHub account.
-   Then press "save" and close the popup.
+   Then press *save* and close the popup.
    
 1. Create an SSH key to give Codenvy write access to your GitHub repositories. In the horizontal top-level menu, navigate to
 
         Profile > Preferences > VCS > SSH
 	
-   Press the small square "octocat" button (GitHub's logo) in the bottom right corner of the popup.
+   Press the small square *octocat* button (GitHub's logo) in the bottom right corner of the popup.
    You should now see a key labeled "github.com" on the list of keys in the right half of the popup.
-   Then press "save" and close the popup.
+   Then press *save* and close the popup.
 
 1. For highly convenient integration of git username and email and SSH keys between IDE profile and console, enable the git agent (this will restart your workspace):
 
