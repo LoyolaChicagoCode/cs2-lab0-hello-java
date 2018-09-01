@@ -80,9 +80,12 @@ This is a one-time preparation step for this class.
    You should now see a key labeled `github.com` on the list of keys in the right half of the popup.
    Then press *save* and close the popup.
 
-1. For highly convenient integration of git username and email and SSH keys between IDE profile and console, enable the git agent (this will restart your workspace):
+1. For highly convenient integration of git username and email and SSH keys between IDE profile and console, enable the git a
+gent:
 
-       Workspaces > settings for desired workspace (gear wheel) > Agents > Git credentials
+       Workspaces > settings for desired workspace (gear wheel) > Agents > Git credentials > click switch to enable
+       
+   *(The switch should now turn from gray to blue and your workspace should restart.)*
 
 # TDD with Codenvy, Maven, and JUnit
 
