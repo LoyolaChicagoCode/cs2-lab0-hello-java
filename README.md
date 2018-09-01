@@ -169,7 +169,7 @@ Alternatively, to commit from the command line,
     git commit -asm "brief description of changes"
     git push
     
-1. Visit the web page of your remote GitHub repository and navigate to one of the source files you have changed to verify that the change is there.
+Finally, visit the web page of your remote GitHub repository and navigate to one of the source files you have changed to verify that the change is there.
    Congratulations, you have now pushed your changes to your remote GitHub repository!
 
 # Submission
