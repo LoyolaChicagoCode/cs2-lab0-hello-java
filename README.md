@@ -46,8 +46,6 @@ Submit individually.
    - Under collaborators and teams add us as collaborators with read/write privileges.
    - Notification will occur automatically.
 
-1. Use the green *clone or download* button to copy the SSH-based repository URL for cloning your private remote GitHub repo into Codenvy.
-
 # Codenvy workspace creation
 
 1. Use your GitHub, Visual Studio Team Services, or Google+ account to log into Codenvy.
@@ -75,7 +73,7 @@ Submit individually.
         Profile > Preferences > VCS > SSH
 	
    Press the small square *octocat* button (GitHub's logo) in the bottom right corner of the popup.
-   You should now see a key labeled "github.com" on the list of keys in the right half of the popup.
+   You should now see a key labeled `github.com` on the list of keys in the right half of the popup.
    Then press *save* and close the popup.
 
 1. For highly convenient integration of git username and email and SSH keys between IDE profile and console, enable the git agent (this will restart your workspace):
@@ -84,7 +82,59 @@ Submit individually.
 
 # TDD with Codenvy, Maven, and JUnit
 
-TBD
+1. On the web page for your own private remote GitHub repository `cs2-lab0-hello-java`, use the green *clone or download* button to copy the SSH-based repository URL.
+
+1. In Codenvy, choose 
+
+        Workspace > Import project
+	
+   and paste the copied URL into the right field.
+   Verify that the project name is also `cs2-lab0-hello-java`.
+   
+1. Now click in the terminal window and navigate on the command line to your project directory:
+
+        cd /projects/cs2-lab0-hello-java
+	
+   (The command prompt should change accordingly.)
+
+1. To compile the project using Maven, enter
+
+        mvn test-compile
+	
+   You should see `BUILD SUCCESS` toward the end of the output.
+   If not, look more closely at the output to see what exactly is wrong, e.g., syntax errors in the Java sources.
+   
+1. To run the main program, enter
+
+        mvn exec:java
+	
+1. To run the tests on the command line, enter
+
+        mvn test
+	
+   You will see the test results in the output. 
+   At the end, you will see a summary telling you how many tests have any of the following results:
+   
+      - PASS (green): the test succeeded
+      - FAIL (orange): an assertion in the test failed, meaning that the code you are testing did not behave as expected
+      - ERROR (red): a more severe error occurred before any of the assertions were tried
+	
+1. To run the tests through the IDE
+
+    - In the project explorer window, right-click on the project node `cs2-lab0-hello-java`, then choose
+    
+          Run Tests > Run JUnit Test
+	  
+      If this menu item is disabled, you probably still need to compile the project using `mvn test-compile` in the terminal (see above).
+      
+1. Now get the tests to pass by 
+
+    - fixing the system under test (SUT), i.e., any incorrect method(s) in the `HelloWorld` class
+    - fixing any erroneous tests
+    
+1. Congratulations, you have now fixed your code!
+
+        
 
 # Submission
 
