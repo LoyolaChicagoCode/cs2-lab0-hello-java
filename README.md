@@ -65,7 +65,8 @@ This is a one-time preparation step for this class.
 
 1. Wait for the workspace to become available. Now you have a persistent, cloud-based, standard Ubuntu/Linux command-line environment that you can work in and come back to from any computer.
 
-1. Verify that your user name and email address are available to Codenvy. In the horizontal top-level menu, navigate to
+1. Verify that your user name and email address are available to the git tool when invoked through Codenvy (IDE or terminal). 
+In the horizontal top-level menu, navigate to
 
        Profile > Preferences > Git > Committer
 	
@@ -175,6 +176,14 @@ Alternatively, to commit from the command line,
 Finally, visit the web page of your remote GitHub repository and navigate to one of the source files you have changed to verify that the change is there.
 
 *Congratulations, you have now pushed your changes to your remote GitHub repository!*
+
+*NOTE: If you are having trouble pushing from through the IDE menu, try through the command line. 
+Then look carefully at the error message.
+If it talks about email privacy, then try each of the following steps in order:*
+
+1. In your Codenvy Git settings (see above), insert your *private* GitHub email of the form `123456+userid@users.noreply.github.com` and try pushing again.
+
+1. In your GitHub account settings, email section, uncheck the box labeled *Keep my email address private*.
 
 # Submission
 
