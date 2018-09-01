@@ -25,7 +25,9 @@ Submit individually.
 
 # GitHub account creation and repository import
 
-1. Create a GitHub account.
+This is a one-time step.
+
+1. Create a GitHub account (if you do not have one already).
 
 1. Request the [GitHub Student Developer Pack](https://education.github.com/pack/join) using your official Loyola email address (this should give you unlimited private repositories for free).
 
@@ -47,6 +49,8 @@ Submit individually.
    - Notification will occur automatically.
 
 # Codenvy workspace creation
+
+This is a one-time preparation step for this class.
 
 1. Use your GitHub, Visual Studio Team Services, or Google+ account to log into Codenvy.
 
@@ -81,6 +85,12 @@ Submit individually.
         Workspaces > settings for desired workspace (gear wheel) > Agents > Git credentials
 
 # TDD with Codenvy, Maven, and JUnit
+
+In this section, you will perform one or more iterations of the (more frequent) inner circle involving 
+
+   - edit the source code
+   - compile the source code to executable code
+   - test (or run) the executable code
 
 1. On the web page for your own private remote GitHub repository `cs2-lab0-hello-java`, use the green *clone or download* button to copy the SSH-based repository URL.
 
@@ -119,13 +129,11 @@ Submit individually.
       - FAIL (orange): an assertion in the test failed, meaning that the code you are testing did not behave as expected
       - ERROR (red): a more severe error occurred before any of the assertions were tried
 	
-1. To run the tests through the IDE
-
-    - In the project explorer window, right-click on the project node `cs2-lab0-hello-java`, then choose
+1. To run the tests through the IDE, in the project explorer window, right-click on the project node `cs2-lab0-hello-java`, then choose
     
-          Run Tests > Run JUnit Test
+      Run Tests > Run JUnit Test
 	  
-      If this menu item is disabled, you probably still need to compile the project using `mvn test-compile` in the terminal (see above).
+   If this menu item is disabled, you probably still need to compile the project using `mvn test-compile` in the terminal (see above).
       
 1. Now get the tests to pass by 
 
@@ -134,11 +142,39 @@ Submit individually.
     
 1. Congratulations, you have now fixed your code!
 
-        
+# Committing and pushing your code to your remote GitHub repo
+
+In this section, you will close the outer, somewhat less frequent, circle, consisting of
+
+   - clone a remote repo (or *pull* someone else's recent changes)
+   - change (edit-compile-test/run locally)
+   - commit your changes (locally)
+   - push your changes to the remote repo
+
+To commit and push through the IDE, 
+
+   - right-click on the project node `cs2-lab0-hello-java` 
+    
+   - then choose
+
+          Git > Commit
+	  
+   - enter a very brief description of the changes you are committing
+    
+   - check the box in the bottom left corner labeled *push committed changes*
+    
+Alternatively, to commit from the command line,
+
+    cd /projects/cs2-lab0-hello-java
+    git commit -asm "brief description of changes"
+    git push
+    
+1. Visit the web page of your remote GitHub repository and navigate to one of the source files you have changed to verify that the change is there.
+   Congratulations, you have now pushed your changes to your remote GitHub repository!
 
 # Submission
 
-When your project is ready to grade, submit your complete cs371f18p0 repository URL including your GitHub userid on Sakai as an inline submission. 
+When your project is ready to grade, submit your complete cs2-lab0-hello-java repository URL including your GitHub userid on Sakai as an inline submission. 
 
 # Grading criteria
 
