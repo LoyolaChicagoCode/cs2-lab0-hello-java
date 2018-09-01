@@ -81,8 +81,7 @@ In the horizontal top-level menu, navigate to
    You should now see a key labeled `github.com` on the list of keys in the right half of the popup.
    Then press *save* and close the popup.
 
-1. For highly convenient integration of git username and email and SSH keys between IDE profile and console, enable the git a
-gent:
+1. For highly convenient integration of git username and email and SSH keys between IDE profile and console, enable the git agent:
 
        Workspaces > settings for desired workspace (gear wheel) > Agents > Git credentials > click to enable
        
@@ -95,6 +94,8 @@ In this section, you will perform one or more iterations of the (more frequent) 
    - edit the source code
    - compile the source code to executable code
    - test (or run) the executable code
+   
+These are the steps:
 
 1. On the web page for your own private remote GitHub repository `cs2-lab0-hello-java`, use the green *clone or download* button to copy the SSH-based repository URL.
 
@@ -158,13 +159,11 @@ In this section, you will close the (somewhat less frequent) outer circle, consi
 To commit and push through the IDE, 
 
    - right-click on the project node `cs2-lab0-hello-java` 
-    
    - then choose
 
          Git > Commit
 	  
    - enter a very brief description of the changes you are committing
-    
    - check the box in the bottom left corner labeled *push committed changes*
     
 Alternatively, to commit from the command line,
