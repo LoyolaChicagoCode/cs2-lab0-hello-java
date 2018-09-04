@@ -151,7 +151,7 @@ These are the steps:
 
 In this section, you will close the (somewhat less frequent) outer circle, consisting of
 
-   - clone a remote repo (or *pull* someone else's recent changes)
+   - clone a remote repo (or *pull* your own or someone else's recent changes)
    - change (edit-compile-test/run locally)
    - commit your changes (locally)
    - push your changes to the remote repo
