@@ -197,3 +197,5 @@ Total 3 points:
 - (0.5 point) leave project structure intact
 - (0.5 point) fix or remove the erroneous test(s)
 - (1 point) make the other test(s) pass without modifying anything else in src/test
+
+*To clarify, your submitted repo must include at least one commit that you made and pushed up to the GitHub server.*
