@@ -193,7 +193,7 @@ When your project is ready to grade, submit your complete cs2-lab0-hello-java re
 
 Total 3 points:
 
-- (1 point) submission via GitHub repo (should still show the history before clone)
+- (1 point) submission of your GitHub repo's URL via Sakai (your repo should still show original project commit history - this automatically happens when you import this repo)
 - (0.5 point) leave project structure intact
-- (0.5 point) remove the two erroneous tests
-- (1 point) make the other tests pass without modifying anything else in src/test
+- (0.5 point) fix or remove the erroneous test(s)
+- (1 point) make the other test(s) pass without modifying anything else in src/test
