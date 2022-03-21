@@ -39,10 +39,10 @@ In this section, you will perform one or more iterations of the (more frequent) 
 
 1. Work on the project following [this GitHub-based workflow](https://gist.github.com/klaeufer/869ed974791256297049dee2dd920414) except the "repository import" section, which GitHub Classroom already took care of:
 
-  - edit the source code
-  - compile the source code to executable code
-  - test (or run) the executable code
-  - frequently commit and push your local modifications to your remote GitHub Classroom repository
+    - edit the source code
+    - compile the source code to executable code
+    - test (or run) the executable code
+    - frequently commit and push your local modifications to your remote GitHub Classroom repository
 
 # Submission
 
