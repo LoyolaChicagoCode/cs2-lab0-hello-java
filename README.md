@@ -25,15 +25,24 @@ Submit individually.
 
 # GitHub account creation and repository import
 
-This is a one-time step.
+These are one-time steps:
 
 1. Create a GitHub account (if you do not have one already).
 
 1. Request the [GitHub Student Developer Pack](https://education.github.com/pack/join) using your official Loyola email address (optional).
 
+In this section, you will perform one or more iterations of the (more frequent) inner circle involving
+
+# Working on the project using GitHub Classroom
+
 1. Accept the GitHub Classroom invite provided to you in Sakai.
 
-1. Work on the project following [these steps](https://gist.github.com/klaeufer/869ed974791256297049dee2dd920414) except the "repository import" section, which GitHub Classroom already took care of.
+1. Work on the project following [this GitHub-based workflow](https://gist.github.com/klaeufer/869ed974791256297049dee2dd920414) except the "repository import" section, which GitHub Classroom already took care of:
+
+  - edit the source code
+  - compile the source code to executable code
+  - test (or run) the executable code
+  - frequently commit and push your local modifications to your remote GitHub Classroom repository
 
 # Submission
 
