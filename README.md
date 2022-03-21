@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/LoyolaChicagoCode/cs2-lab0-hello-java.svg?branch=master)](https://travis-ci.org/LoyolaChicagoCode/cs2-lab0-hello-java)
+[![Java CI with Maven](https://github.com/LoyolaChicagoCode/cs2-lab0-hello-java/actions/workflows/maven.yml/badge.svg)](https://github.com/LoyolaChicagoCode/cs2-lab0-hello-java/actions/workflows/maven.yml)
 
 This build will always fail because it has two examples of failing tests:
 one based on the source code, and one based on an incorrect test.
-The status badge is here just to demonstrate continuous integration (CI).
+The status badge is here just to demonstrate continuous integration (CI) via GitHub Actions.
 
 # Loyola COMP 271 Lab 0
 
