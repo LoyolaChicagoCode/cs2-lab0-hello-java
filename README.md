@@ -48,45 +48,6 @@ This is a one-time step.
    - Under collaborators and teams add us as collaborators with read/write privileges.
    - Notification will occur automatically.
 
-# Codenvy workspace creation
-
-This is a one-time preparation step for this class.
-
-1. Use your GitHub, Visual Studio Team Services, or Google+ account to log into Codenvy.
-
-   - If you do not have any of these accounts, create a GitHub account. Please see below for more information on GitHub.
-
-1. Create a new workspace with the following settings:
-
-   - New from blank …
-   - Create new workspace from stack > BLANK
-   - Name: luccs271course
-   - RAM: 3GB
-
-1. Wait for the workspace to become available. Now you have a persistent, cloud-based, standard Ubuntu/Linux command-line environment that you can work in and come back to from any computer.
-
-1. Verify that your user name and email address are available to the git tool when invoked through Codenvy (IDE or terminal). 
-In the horizontal top-level menu, navigate to
-
-       Profile > Preferences > Git > Committer
-	
-   and enter any missing information. Use an email address that is associated with your GitHub account.
-   Then press *save* and close the popup.
-   
-1. Create an SSH key to give Codenvy write access to your GitHub repositories. In the horizontal top-level menu, navigate to
-
-       Profile > Preferences > VCS > SSH
-	
-   Press the small square *octocat* button (GitHub's logo) in the bottom right corner of the popup.
-   You should now see a key labeled `github.com` on the list of keys in the right half of the popup.
-   Then press *save* and close the popup.
-
-1. For highly convenient integration of git username and email and SSH keys between IDE profile and console, enable the git agent:
-
-       Workspaces > settings for desired workspace (gear wheel) > Agents > Git credentials > click to enable
-       
-   *(The switch should now turn from gray to blue and your workspace should restart.)*
-
 # TDD with Codenvy, Maven, and JUnit
 
 In this section, you will perform one or more iterations of the (more frequent) inner circle involving 
